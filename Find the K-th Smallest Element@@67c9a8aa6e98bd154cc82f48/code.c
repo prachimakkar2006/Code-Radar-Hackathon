@@ -7,7 +7,7 @@ int kthSmallest(int arr[],int n,int k){
         for (int j=0;j<=i;j++){
             if(arr[j+1]>arr[j]){
                 int temp[j];
-                arr[j+1]=arr[j];
+                arr[j]=arr[j+1];
                 arr[j+1]=temp[j];
             }
         }
