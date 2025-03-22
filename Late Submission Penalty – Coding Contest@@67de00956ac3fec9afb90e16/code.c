@@ -1,7 +1,7 @@
 #include <stdio.h>
 int calculatePenalty(int subDay,int subMonth,int subYear,int dueDay;int dueMonth;int dueYear){
     int pay;
-    if(subMonth==dueMonth && subYear==dueYear && subDay!=dueDay){
+    if((subMonth==dueMonth) && (subYear==dueYear) && (subDay!=dueDay)){
         pay=10*(subDay-dueDay);
     }
     else if(subYear==dueYear){
