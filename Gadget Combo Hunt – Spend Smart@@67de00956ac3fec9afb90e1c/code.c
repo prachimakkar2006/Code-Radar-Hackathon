@@ -9,12 +9,12 @@ int maxGadgetSpend(int keyboards[],int n,int headsets[],int m,int budget){
                 max=arr[i][j];
             }
         }
-        if(max==0){
-            return -1;
-        }
-        else{
-            return max;
-        }
+    }
+    if(max==0){
+        return -1;
+    }
+    else{
+        return max;
     }
 
 }
