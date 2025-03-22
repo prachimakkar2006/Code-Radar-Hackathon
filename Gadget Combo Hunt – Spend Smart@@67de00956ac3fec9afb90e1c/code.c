@@ -1,5 +1,5 @@
 #include <stdio.h>
-int maxGadgetSpend(int keyboards[],int n,int headsets,int m,int budget){
+int maxGadgetSpend(int keyboards[],int n,int headsets[],int m,int budget){
     int arr[n][m];
     int max=0;
     for(int i=0;i<n;i++){
