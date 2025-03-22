@@ -7,6 +7,7 @@ int mostPlayedGame(int games[],int n){
                 count+=1;
                 if(count>1){
                     printf("%d",games[i]);
+                    break;
                 }
             }
         }
