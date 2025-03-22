@@ -1,20 +1,19 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
     int n;
-    scanf("%d\n",&n);
+    scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
-        scanf("%d\n",arr[i]);
+        scanf("%d",&arr[i]);
     }
     int target;
-    scanf("%d\n",&target);
+    scanf("%d",&target);
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
-            if((i+j)==target){
+            if(i+j == target){
                 printf("%d %d",i,j);
             }
-
         }
-       
     }
+
 }
