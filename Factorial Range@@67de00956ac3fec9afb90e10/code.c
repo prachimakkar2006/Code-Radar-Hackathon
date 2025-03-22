@@ -15,7 +15,7 @@ int factoriaRange(int start,int end){
             }
         }
     }
-    printf("%d",&fact);
+    printf("%d",fact);
 
         
 
