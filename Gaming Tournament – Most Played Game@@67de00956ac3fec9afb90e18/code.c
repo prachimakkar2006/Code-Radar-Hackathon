@@ -1,0 +1,10 @@
+#include <stdio.h>
+int mostPlayedGame(int games[],int n){
+    int count;
+    for(int i=0;i<n;i++){
+        int count=0;
+        if(count>o){
+            printf("%d",count);
+        }
+    }
+}
