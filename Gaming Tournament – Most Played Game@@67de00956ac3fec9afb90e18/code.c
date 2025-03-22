@@ -6,7 +6,7 @@ int mostPlayedGame(int games[],int n){
             if(games[i]==games[j]){
                 count+=1;
                 if(count>1){
-                    printf("%d",arr[i]);
+                    printf("%d",games[i]);
                 }
             }
         }
