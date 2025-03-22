@@ -17,8 +17,5 @@ int main(){
             }
         }
     }
-    if(!found){
-        printf("No pair");
-    }
 
 }
