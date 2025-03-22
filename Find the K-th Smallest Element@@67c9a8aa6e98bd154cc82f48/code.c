@@ -6,7 +6,8 @@ int kthSmallest(int arr[],int n,int k){
             break;
         }
         else{
-            printf("-1");
+            return -1;
+            
         }
     }
 }
