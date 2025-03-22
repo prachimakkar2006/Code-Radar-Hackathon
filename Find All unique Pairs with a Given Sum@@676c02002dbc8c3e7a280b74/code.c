@@ -15,6 +15,7 @@ int main(){
             }
             else{
                 printf("No pair");
+                break;
             }
         }
     }
