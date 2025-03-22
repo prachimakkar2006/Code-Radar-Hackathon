@@ -12,6 +12,9 @@ int main(){
         for(int j=0;j<n;j++){
             int num=arr[i]-arr[j];
             if(arr[i]-arr[j]==1){
+                if(found+=1){
+                    break;
+                }
                 printf("%d %d",arr[j],arr[i]);
             }
         }
