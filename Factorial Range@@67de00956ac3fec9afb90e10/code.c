@@ -4,11 +4,11 @@ int factorial(int n){
         return 1;
     }
     else{
-        return n*factorial(n-1);
+        return n * factorial(n - 1);
     }
 }
 void factorialRange(int start,int end){
-    if(start>end|| start<0){
+    if(start>end || start<0){
         printf("Invalid Range");
     }
     else{
