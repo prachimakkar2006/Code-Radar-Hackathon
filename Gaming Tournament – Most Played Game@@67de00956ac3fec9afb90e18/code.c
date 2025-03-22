@@ -3,7 +3,7 @@ int mostPlayedGame(int games[],int n){
     int count;
     for(int i=0;i<n;i++){
         int count=0;
-        if(count>o){
+        if(count>0){
             printf("%d",count);
         }
     }
