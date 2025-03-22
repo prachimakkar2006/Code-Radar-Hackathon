@@ -1,5 +1,6 @@
 #include <stdio.h>
 int factoriaRange(int start,int end){
+    int i;
     int fact=1;
     if(start>end){
         printf("Invalid Range");
