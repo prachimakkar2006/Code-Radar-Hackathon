@@ -1,15 +1,13 @@
 #include <stdio.h>
-int n;
-scanf("%d",&n);
-int arr[n];
-for(int i=0;i<n;i++){
-    scanf("%d",&arr[i]);
-}
-int num;
-for(int i=0;i<n;i++){
-    if(arr[i<num]){
-        num=arr[i];
+int kthSmallest(int arr[],int n,int k){
+    for(int i=0;i<n;i++){
+        if(k==arr[i]){
+            printf("%d",k);
+        }
+        else{
+            printf("-1");
+        }
     }
-}
-printf("%d",num);
+    return k;
 
+}
