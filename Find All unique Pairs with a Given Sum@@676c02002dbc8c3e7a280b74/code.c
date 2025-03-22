@@ -7,17 +7,18 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int target;
+    int found=0;
     scanf("%d",&target);
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
             if((arr[i]+arr[j]) == target){
                 printf("%d %d\n",arr[i],arr[j]);
-            }
-            else{
-                printf("No pair");
-                break;
+                found+=1;
             }
         }
+    }
+    if(!found){
+        printf("No pair");
     }
 
 }
