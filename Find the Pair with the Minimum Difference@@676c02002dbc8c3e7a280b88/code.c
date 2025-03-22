@@ -13,9 +13,6 @@ int main(){
             if(arr[i]-arr[j]==1){
                 printf("%d %d",arr[j],arr[i]);
             }
-            else{
-                printf("-1");
-            }
         }
     }
 }
